@@ -3,6 +3,7 @@ import pandas as pd
 
 TEST_DATA_DIR = "test_data"
 
+
 # load a save model and predict from given test files
 def run_save_model(model_file_path):
     model_files = pkl.load(open(model_file_path, 'rb'))
