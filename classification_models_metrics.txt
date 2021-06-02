@@ -1,0 +1,59 @@
+MultinomialNB()
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.95      0.97       171
+         1.0       0.98      0.98      0.98       109
+         2.0       0.93      0.98      0.95       123
+         3.0       0.99      0.99      0.99       144
+         4.0       0.97      0.96      0.97       121
+
+    accuracy                           0.97       668
+   macro avg       0.97      0.97      0.97       668
+weighted avg       0.97      0.97      0.97       668
+
+
+
+KNeighborsClassifier(metric='euclidean', n_neighbors=6, weights='distance')
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.88      0.92       171
+         1.0       0.97      0.92      0.94       109
+         2.0       0.84      0.97      0.90       123
+         3.0       0.97      0.98      0.98       144
+         4.0       0.93      0.93      0.93       121
+
+    accuracy                           0.93       668
+   macro avg       0.93      0.93      0.93       668
+weighted avg       0.94      0.93      0.93       668
+
+
+
+SVC(C=1, gamma=1)
+              precision    recall  f1-score   support
+
+         0.0       0.96      0.95      0.96       171
+         1.0       0.98      0.98      0.98       109
+         2.0       0.93      0.98      0.95       123
+         3.0       0.99      0.99      0.99       144
+         4.0       0.99      0.96      0.97       121
+
+    accuracy                           0.97       668
+   macro avg       0.97      0.97      0.97       668
+weighted avg       0.97      0.97      0.97       668
+
+
+
+
+RandomForestClassifier(max_features='log2', n_estimators=400)
+              precision    recall  f1-score   support
+
+         0.0       0.94      0.99      0.97       171
+         1.0       0.99      0.95      0.97       109
+         2.0       0.97      0.94      0.96       123
+         3.0       0.98      0.99      0.99       144
+         4.0       0.98      0.97      0.97       121
+
+    accuracy                           0.97       668
+   macro avg       0.97      0.97      0.97       668
+weighted avg       0.97      0.97      0.97       668
+
